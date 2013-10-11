@@ -6,6 +6,6 @@ var height = prompt ("enter your height in inches"); //enter your height in inch
 var averageGrowth = height / age; // gives the average amount grown each year of life
 
 
-alert (name + " you grew " + averageGrowth + " inches per year"); // gives you the average
+alert (name + " you grew " + averageGrowth + " inches per year"); // gives you the average rate of yearly growth
 
 
