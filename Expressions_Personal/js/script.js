@@ -8,3 +8,4 @@ var round2 = prompt("Enter round 2 score")
 var round3 = prompt("Enter round 3 score")
 var round4 = prompt("Enter round 4 score")
 var round5 = prompt("Enter round 5 score")
+var average = (round1 + round2 + round3 + round4 + round5)/5
