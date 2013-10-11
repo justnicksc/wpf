@@ -3,7 +3,7 @@
 
 //This script is going to calculate the average score for 5 rounds of golf
 
-var round1 = prompt("Enter round 1 score")
+var round1 = prompt("Enter round 1 score")// enter the score of the first round of golf
 var round2 = prompt("Enter round 2 score")
 var round3 = prompt("Enter round 3 score")
 var round4 = prompt("Enter round 4 score")
