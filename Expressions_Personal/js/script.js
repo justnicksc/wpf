@@ -10,7 +10,7 @@ var round4 = prompt("Enter round 4 score")// prompt to enter the score of your f
 
 
 // By adding the all of the scores together and dividing that total by the number of round we can get your average score
-var average = (Number(round1) + Number(round2) + Number(round3) + Number(round4) + Number(round5))/5
+var average = (Number(round1) + Number(round2) + Number(round3) + Number(round4))/4
 
 // the alert box will display the average
 alert ("I played 5 rounds of golf with an average score of " + average)
