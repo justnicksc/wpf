@@ -6,6 +6,7 @@ var downPayment = prompt("Enter down payment" ,carPrice *.20); // the down payme
 var tradeValue = prompt("Enter trade in value" ,0);
 var taxes = carPrice * fees[0];
 var amountFinanced = carPrice - downPayment - tradeValue + taxes + fees[1] + fees[2];
-if taxes = (>300) {
+if (taxes > 300)
+{
     taxes = 300;
 }
