@@ -5,5 +5,5 @@ var age = prompt ("enter your age"); //enter the age of the person
 var height = prompt ("enter your height"); //enter your height
 var averageGrowth = height / age; // gives the average amount grown each year of life
 
-alert (name + "you grew " + averageGrowth + " per year")
+alert (name + " you grew " + averageGrowth + " per year")
 
