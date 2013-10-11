@@ -11,3 +11,9 @@ console.log ("Sparky is" + " " + sparkysAge + " " + "Which is" + " " + dogYears 
 
 // Slice of pie
 
+var slices = 8;
+var pizzas = 10;
+var people = 40;
+var slicePerPerson = slices * pizzas /people
+
+console.log ("Each person ate" + " " + slicePerPerson + " " + "slices of pizza at the party")
