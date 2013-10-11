@@ -1,7 +1,7 @@
 // James West Expressions 10/10/13
 
 
-//This script is going to calculate the average score for 5 rounds of golf
+//This script is going to calculate the average score for 4 rounds of golf
 
 var round1 = prompt("Enter round 1 score")// prompt to enter the score of the first round of golf
 var round2 = prompt("Enter round 2 score")// prompt to enter the score of your second round of golf
