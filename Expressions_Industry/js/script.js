@@ -10,3 +10,5 @@ if (taxes > 300)
 {
     taxes = 300;
 }
+
+alert ("The car cost " + carPrice + "\nThe taxes are " + taxes + "\nThe doc fee is " +fees[1] + "\nThe tag fee is " + fees[2] + "\n After down payment and trade in you will be financing " + amountFinanced);
