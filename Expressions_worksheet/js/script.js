@@ -11,9 +11,18 @@ console.log ("Sparky is" + " " + sparkysAge + " " + "Which is" + " " + dogYears 
 
 // Slice of pie
 
-var slices = 8;
-var pizzas = 10;
-var people = 40;
-var slicePerPerson = slices * pizzas /people
+var slices = 8; // how many slices in a pie
+var pizzas = 10; // how many pizzas that were ordered
+var people = 40; // how many people at the party
+var slicePerPerson = slices * pizzas /people; // multiply how many slices in each pizza by the number of pizzas and divide by the number of people
 
-console.log ("Each person ate" + " " + slicePerPerson + " " + "slices of pizza at the party")
+console.log ("Each person ate" + " " + slicePerPerson + " " + "slices of pizza at the party");
+
+// Slice of Pie II
+
+var slices = 8; // how many slices in a pie
+var pizzas = 10; // how many pizzas that were ordered
+var people = 40; // how many people at the party
+var sparkysPizza = slices * pizzas % people;// since there was no remainder sparky is going hungry
+
+console.log ("Sparky got" + " " + sparkysPizza + " " + "slices of pizza" )
