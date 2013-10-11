@@ -4,4 +4,5 @@ var fees = [.05, 389, 55,]; // sales fees 5 percent sales tax, $389 doc fee and 
 var carPrice = prompt("Enter the selling price of car" ,20000); // The price of the car before fees
 var downPayment = prompt("Enter down payment" ,carPrice *.20); // the down payment has a default value of 20 percent of selling price
 var tradeValue = prompt("Enter trade in value" ,0);
-var amountFinanced =
+var taxes = carPrice * fees[0];
+var amountFinanced = carPrice - downPayment - tradeValue + taxes + fees[1] + fees[2];
