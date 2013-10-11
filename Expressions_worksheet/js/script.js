@@ -26,3 +26,12 @@ var people = 40; // how many people at the party
 var sparkysPizza = slices * pizzas % people;// since there was no remainder sparky is going hungry
 
 console.log ("Sparky got" + " " + sparkysPizza + " " + "slices of pizza" )
+
+// Average shopping bill
+
+var groceryBills = [125, 220, 135, 150, 210];
+
+var groceryTotal = groceryBills[0] + groceryBills[1] + groceryBills[2] + groceryBills[3] + groceryBills[4];
+var groceryAverage = groceryTotal/2;
+console.log ("You have spent a total of $" + groceryTotal + " " + "on groceries over 5 weeks. That is an average of $" + groceryAverage + " " + "per week");
+
