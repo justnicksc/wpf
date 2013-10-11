@@ -2,4 +2,5 @@
 
 var name = prompt ("enter your name"); //can enter full name or just first name
 var age = prompt ("enter your age"); //enter the age of the person
-var height = prompt ("enter your height")
+var height = prompt ("enter your height"); //enter your height
+var averageGrowth = height / age;
