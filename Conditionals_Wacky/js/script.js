@@ -2,3 +2,5 @@
 
 
 // This will calculate if there is enough water for all the people for a day
+
+var waterPerDay
