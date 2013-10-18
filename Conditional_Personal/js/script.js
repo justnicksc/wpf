@@ -5,3 +5,5 @@ var vacCost = prompt("Enter the Total cost of the vacation."); //This is the cos
 if (vacCost == "") {
     console.log('You cannot leave field blank.'); // this code validates entry
 }
+
+var monthlyIncome = prompt("Enter the total household income."); //This is the total household income of the family
