@@ -16,3 +16,7 @@ if (goal == "") {
     console.log('You cannot leave field blank.'); // this code validates entry
     goal = prompt("Enter this months goal"); // this gives the user a second chance to enter info
 }
+
+if (currentMonth >= goal && lastMonth < currentMonth){
+    console.log ("")
+}
