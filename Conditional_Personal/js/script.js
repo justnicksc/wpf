@@ -23,3 +23,6 @@ var bills = prompt("Enter the total amount of bills and expenses."); //This is t
 if (bills == "") {
     console.log('You cannot leave field blank.'); // this code validates entry
 }
+
+var savings = monthlyIncome - bills;
+var timeToSave = prompt("Enter how many months untill vacation."); // This is the amount of time you have to save
