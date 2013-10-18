@@ -2,7 +2,7 @@
 
 //This calculates if we met our sales goal and if we sold more cars than last month
 
-var lastMonth = 240 // this is a preset variable for the previous month.
+var lastMonth = 240; // this is a preset variable for the previous month.
 var currentMonth = prompt("Enter the total sales for month."); // user will provide this information
 
 if (currentMonth == "") {
@@ -19,7 +19,7 @@ if (goal == "") {
 
 if (currentMonth >= goal && lastMonth < currentMonth){// if current month meets the goal and beats last month
     console.log ("Congratulations, you sold " + currentMonth + " cars making your goal of " + goal + " cars and beat last months sales");
-}else if (currentMonth < goal && lastMonth > currentMonth) {// this is if you dont meet goal or beat last month
+}else if (currentMonth < goal && lastMonth > currentMonth) {// this is if you don't meet goal or beat last month
     console.log ("Better dust off your resume. You did not meet your goal or sell more than last month");
 }else if (currentMonth >= goal && lastMonth > currentMonth){ // this is if you meet the goal but not beat last month
     console.log ("Good job! You met your sales goal of " + goal + " cars, but you did not sell more than last month.");
