@@ -19,3 +19,7 @@ if (monthlyIncome == "") {
 }
 
 var bills = prompt("Enter the total amount of bills and expenses."); //This is the total of bills, food, expenses...
+
+if (bills == "") {
+    console.log('You cannot leave field blank.'); // this code validates entry
+}
