@@ -7,3 +7,7 @@ if (vacCost == "") {
 }
 
 var monthlyIncome = prompt("Enter the total household income."); //This is the total household income of the family
+
+if (monthlyIncome == "") {
+    console.log('You cannot leave field blank.'); // this code validates entry
+}
