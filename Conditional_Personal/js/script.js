@@ -32,3 +32,4 @@ if (timeToSave == "") {
     console.log('You cannot leave field blank.'); // this code validates entry
 }
 
+var amountSaved = savings * timeToSave; // This is the total amount saved over the time set by user
