@@ -26,7 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="52" selection-start="119" selection-end="119" vertical-scroll-proportion="0.093023255" vertical-offset="0" max-vertical-offset="645">
+            <state line="4" column="54" selection-start="121" selection-end="121" vertical-scroll-proportion="0.093023255" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -51,8 +51,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -185,7 +185,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="52" selection-start="119" selection-end="119" vertical-scroll-proportion="0.093023255" vertical-offset="0" max-vertical-offset="645">
+        <state line="4" column="54" selection-start="121" selection-end="121" vertical-scroll-proportion="0.093023255" vertical-offset="0" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
