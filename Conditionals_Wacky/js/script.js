@@ -8,4 +8,4 @@ var totalWater = prompt("Enter the total amount of water in ounces"); // user sh
 var totalPeople = prompt("Enter how many people are in the group"); // total amount of people in the group
 var totalWaterNeeded = waterPerDay * totalPeople; // This is the total water needed for the group
 
-(totalWater >= waterPerDay) ? console.log ("You have enough water for the whole group") : "You might want to lose dave. There is not enough water"// this let them know if they have enough water
+(totalWater >= waterPerDay) ? console.log ("You have enough water for the whole group") : console.log ("You might want to lose dave. There is not enough water");// this let them know if they have enough water
