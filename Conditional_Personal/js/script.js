@@ -33,3 +33,9 @@ if (timeToSave == "") {
 }
 
 var amountSaved = savings * timeToSave; // This is the total amount saved over the time set by user
+
+if (amountSaved >= vacCost) {
+    console.log ("Start packing you can afford your vacation!")
+}else {
+    console.log ("Sorry, but you did not save enough money. Keep saving and you will get your vacation.")
+}
