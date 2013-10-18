@@ -11,3 +11,5 @@ var monthlyIncome = prompt("Enter the total household income."); //This is the t
 if (monthlyIncome == "") {
     console.log('You cannot leave field blank.'); // this code validates entry
 }
+
+var monthlyIncome = prompt("Enter the total household income."); //This is the total household income of the family
