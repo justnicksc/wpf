@@ -4,19 +4,21 @@ var vacCost = prompt("Enter the Total cost of the vacation."); //This is the cos
 
 if (vacCost == "") {
     console.log('You cannot leave field blank.'); // this code validates entry
-    vacCost = prompt("Enter the total cost of vacation.")
+    vacCost = prompt("Enter the total cost of vacation."); // this gives the user a second chance to enter info
 }
 
 var monthlyIncome = prompt("Enter the total household income."); //This is the total household income of the family
 
 if (monthlyIncome == "") {
     console.log('You cannot leave field blank.'); // this code validates entry
+    monthlyIncome = prompt("Enter the total household income."); // this gives the user a second chance to enter info
 }
 
 var bills = prompt("Enter the total amount of bills and expenses."); //This is the total of bills, food, expenses...
 
 if (bills == "") {
     console.log('You cannot leave field blank.'); // this code validates entry
+    bills = prompt("Enter the total amount of bills and expenses."); // This gives the user a second chance to enter info
 }
 
 var savings = monthlyIncome - bills;
