@@ -10,4 +10,9 @@ if (currentMonth == "") {
      currentMonth = prompt("Enter total sales for month"); // this gives the user a second chance to enter info
 }
 
-var goal = prompt("Enter this months goal.");
+var goal = prompt("Enter this months goal."); //number of cars that was projected for this month
+
+if (goal == "") {
+    console.log('You cannot leave field blank.'); // this code validates entry
+    goal = prompt("Enter this months goal"); // this gives the user a second chance to enter info
+}
