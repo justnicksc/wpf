@@ -18,7 +18,7 @@ if (goal == "") {
 }
 
 if (currentMonth >= goal && lastMonth < currentMonth){// if current month meets the goal and beats last month
-    console.log ("Congratulations, you sold " + currentMonth + " cars making your goal of " + goal + " cars");
+    console.log ("Congratulations, you sold " + currentMonth + " cars making your goal of " + goal + " cars and beat last months sales");
 }else if (currentMonth < goal && lastMonth > currentMonth) {// this is if you dont meet goal or beat last month
     console.log ("Better dust off your resume. You did not meet your goal or sell more than last month");
 }else if (currentMonth >= goal && lastMonth > currentMonth){ // this is if you meet the goal but not beat last month
