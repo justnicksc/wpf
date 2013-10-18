@@ -23,10 +23,11 @@ if (bills == "") {
 
 var savings = monthlyIncome - bills;
 
-var timeToSave = prompt("Enter how many months untill vacation."); // This is the amount of time you have to save
+var timeToSave = prompt("Enter how many months until vacation."); // This is the amount of time you have to save
 
 if (timeToSave == "") {
     console.log('You cannot leave field blank.'); // this code validates entry
+    timeToSave = prompt("Enter how many months until vacation."); /// This gives the user a second chance to enter info
 }
 
 var amountSaved = savings * timeToSave; // This is the total amount saved over the time set by user
