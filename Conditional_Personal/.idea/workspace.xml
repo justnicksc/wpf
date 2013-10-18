@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="33" selection-start="103" selection-end="103" vertical-scroll-proportion="0.09448819" vertical-offset="0" max-vertical-offset="635">
+            <state line="4" column="33" selection-start="103" selection-end="103" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+            <state line="12" column="1" selection-start="472" selection-end="472" vertical-scroll-proportion="0.27314112" vertical-offset="0" max-vertical-offset="659">
               <folding />
             </state>
           </provider>
@@ -52,8 +52,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/images/index.html" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -211,16 +211,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+        <state line="4" column="33" selection-start="103" selection-end="103" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="103" selection-end="103" vertical-scroll-proportion="0.09448819" vertical-offset="0" max-vertical-offset="635">
+        <state line="12" column="1" selection-start="472" selection-end="472" vertical-scroll-proportion="0.27314112" vertical-offset="0" max-vertical-offset="659">
           <folding />
         </state>
       </provider>
