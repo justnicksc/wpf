@@ -6,3 +6,4 @@ var startingAvg = prompt("What is your starting average run time for the week");
 var runtimes = new Array(); // current week run times
 runtimes[0] = prompt("Enter day 1 time"); // run time for current day
 runtimes[1] = prompt("Enter day 2 time"); // run time for current day
+runtimes[3] = prompt("Enter day 3 time"); // run time for current day
