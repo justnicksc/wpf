@@ -8,10 +8,10 @@ var project2 = prompt("Enter the amount of wire needed for the second project") 
 var project3 = prompt("Enter the amount of wire needed for the third project") // this is the amount of wire needed
 
 var wireNeeded = function(a, b, c){
-    var totalWire = a + b + C;
+    var totalWire = a + b + c;
     return totalWire;
 }
 
-var wireNeeded2 = 
+var wireNeeded2 = wireNeeded(project1, project2, project3)
 
-console.log(wireNeeded())
+console.log(wireNeeded2)
