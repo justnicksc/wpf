@@ -4,9 +4,11 @@
 
 var wireHand = prompt("Enter the amount of wiring on hand"); //this is the amount of wire that is on hand
 var project1 = prompt("Enter the amount of wire needed for first project") //this is the amount of wire needed
+project1 = parseInt(project1)
 var project2 = prompt("Enter the amount of wire needed for the second project") //this is the amount of wire needed
+project2 = parseInt(project2)
 var project3 = prompt("Enter the amount of wire needed for the third project") // this is the amount of wire needed
-
+project3 = parseInt(project3)
 var wireNeeded = function(a, b, c){
     var totalWire = a + b + c;
     return totalWire;
