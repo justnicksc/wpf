@@ -4,4 +4,4 @@
 
 // calculate the total sale for the month and give the average week. Also tell us if we did better than last month
 
-var week1 = prompt("Enter week 1 sales");
+var week1 = prompt("Enter week 1 sales");// week 1 sales
