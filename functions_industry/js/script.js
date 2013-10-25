@@ -4,16 +4,20 @@
 
 var wireHand = prompt("Enter the amount of wiring on hand"); //this is the amount of wire that is on hand
 var project1 = prompt("Enter the amount of wire needed for first project") //this is the amount of wire needed
-project1 = parseInt(project1)
+project1 = parseInt(project1) // this is to make var above and number and not a string
 var project2 = prompt("Enter the amount of wire needed for the second project") //this is the amount of wire needed
-project2 = parseInt(project2)
+project2 = parseInt(project2) // this is to make var above and number and not a string
 var project3 = prompt("Enter the amount of wire needed for the third project") // this is the amount of wire needed
-project3 = parseInt(project3)
+project3 = parseInt(project3) // this is to make var above and number and not a string
+
+//calculates total wire needed
 var wireNeeded = function(a, b, c){
     var totalWire = a + b + c;
     return totalWire;
 }
 
-var wireNeeded2 = wireNeeded(project1, project2, project3)
+var wire = wireNeeded(project1, project2, project3);
 
-console.log(wireNeeded2)
+
+
+   (wire < wireHand) ? console.log("You have enough wire") : console.log("You need more wire")
