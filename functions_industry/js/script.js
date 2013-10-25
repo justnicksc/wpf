@@ -11,3 +11,7 @@ var wireNeeded = function(a, b, c){
     var totalWire = a + b + C;
     return totalWire;
 }
+
+
+
+console.log(wireNeeded())
