@@ -12,3 +12,5 @@ var week1 = prompt("Enter week 1 sales");// week 1 sales
 week1 = parseInt(week1);
 var week1 = prompt("Enter week 1 sales");// week 1 sales
 week1 = parseInt(week1);
+var week1 = prompt("Enter week 1 sales");// week 1 sales
+week1 = parseInt(week1);
