@@ -2,3 +2,4 @@
 
 
 
+// calculate the total sale for the month and give the average week. Also tell us if we did better than last month
