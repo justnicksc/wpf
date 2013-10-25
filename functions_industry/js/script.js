@@ -9,4 +9,5 @@ var project3 = prompt("Enter the amount of wire needed for the third project") /
 
 var wireNeeded = function(a, b, c){
     var totalWire = a + b + C;
+    return totalWire;
 }
