@@ -4,4 +4,5 @@
 
 var wireHand = prompt("Enter the amount of wiring on hand"); //this is the amount of wire that is on hand
 var project1 = prompt("Enter the amount of wire needed for first project") //this is the amount of wire needed
-var project2
+var project2 = prompt("Enter the amount of wire needed for the third project") //this is the amount of wire needed
+var project3 = 
