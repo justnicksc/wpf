@@ -6,11 +6,11 @@
 
 var week1 = prompt("Enter week 1 sales");// week 1 sales
 week1 = parseInt(week1);
-var week1 = prompt("Enter week 1 sales");// week 1 sales
-week1 = parseInt(week1);
-var week1 = prompt("Enter week 1 sales");// week 1 sales
-week1 = parseInt(week1);
-var week1 = prompt("Enter week 1 sales");// week 1 sales
-week1 = parseInt(week1);
-var week1 = prompt("Enter week 1 sales");// week 1 sales
-week1 = parseInt(week1);
+var week2 = prompt("Enter week 1 sales");// week 1 sales
+week2 = parseInt(week1);
+var week3 = prompt("Enter week 1 sales");// week 1 sales
+week3 = parseInt(week1);
+var week4 = prompt("Enter week 1 sales");// week 1 sales
+week4 = parseInt(week1);
+var lastMonth = prompt("Enter week 1 sales");// week 1 sales
+lastMonth = parseInt(week1);
