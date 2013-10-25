@@ -12,6 +12,6 @@ var wireNeeded = function(a, b, c){
     return totalWire;
 }
 
-
+var wireNeeded2 = 
 
 console.log(wireNeeded())
