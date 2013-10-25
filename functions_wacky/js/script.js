@@ -4,13 +4,13 @@
 
 // calculate the total sale for the month and give the average week. Also tell us if we did better than last month
 
-var week1 = prompt("Enter week 1 sales");// week 1 sales
-week1 = parseInt(week1);
-var week2 = prompt("Enter week 1 sales");// week 1 sales
-week2 = parseInt(week1);
-var week3 = prompt("Enter week 1 sales");// week 1 sales
-week3 = parseInt(week1);
+var weak1 = prompt("Enter week 1 sales");// week 1 sales
+weak1 = parseInt(weak1);
+var weak2 = prompt("Enter week 1 sales");// week 1 sales
+weak2 = parseInt(weak2);
+var weak3 = prompt("Enter week 1 sales");// week 1 sales
+week3 = parseInt(weak3);
 var week4 = prompt("Enter week 1 sales");// week 1 sales
-week4 = parseInt(week1);
+week4 = parseInt(week4);
 var lastMonth = prompt("Enter week 1 sales");// week 1 sales
-lastMonth = parseInt(week1);
+lastMonth = parseInt(lastMonth);
