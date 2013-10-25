@@ -11,8 +11,9 @@ runtimes[4] = prompt("Enter day 4 time"); // run time for current day
 runtimes[5] = prompt("Enter day 5 time"); // run time for current day
 
 // This calculates the average run time for the current week
-var avgrun = avgRunTime(runtimes[0], runtimes[1], runtimes[2], runtimes[3], runtimes[4])
+var avgRun = avgRunTime(runtimes[0], runtimes[1], runtimes[2], runtimes[3], runtimes[4]);
 
 function avgRunTime(d1,d2,d3,d4,d5){
-
+    var avgRun = runtimes[0] + runtimes[1] + runtimes[3] + runtimes[4]
+    return avgRun
 }
