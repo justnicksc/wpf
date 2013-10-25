@@ -19,8 +19,7 @@ runTime5 = parseInt(runTime5);
 var averageRun = avgRunTime(runTime1, runTime2, runTime3, runTime4, runTime5);
 
 function avgRunTime(a, b, c, d, e){
-    var totalRun = a + b + c + d + e; // total of all the days run
-    var avgRun = totalRun/5; // divides totalRun by 5
+    var avgRun = (a + b + c + d + e)/5; // total of all the days run
     return avgRun; // outputs calculation
 }
 
